@@ -16,11 +16,11 @@ const App = () => {
     return (
         <AppWrapper>
             <Flex justify={'center'}>
-                <Title color={'green'}>Lorem ipsum</Title>
+                <Title>Lorem ipsum</Title>
             </Flex>
-            <Flex direction={'column'}>
+            <Flex direction={'column'} margin={'10px 0'}>
                 <Console/>
-                <Button outlined align={'flex-end'}>Отправить</Button>
+                <Button color={'green'} align={'flex-end'}>Отправить</Button>
             </Flex>
         </AppWrapper>
     );

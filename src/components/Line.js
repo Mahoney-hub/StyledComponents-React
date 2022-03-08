@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from "styled-components";
 
-const StyledTitle = styled.h1`
+const StyledLine = styled.div`
+  font-size: 24px;
   color: ${props => props.color || props.theme.colors.primary};
 `
 
-export const Title = (props) => {
-    return <StyledTitle {...props}/>
+export const Line = (props) => {
+    return <StyledLine {...props}/>
 };
 
